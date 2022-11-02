@@ -52,7 +52,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: MercuryOrbit
-  m_Speed: 11.6
+  m_Speed: 0.0862
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
