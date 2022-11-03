@@ -24,5 +24,8 @@ public float[] OrbitSpeeds={0, 600f, 200f, 120f, 66.66667f, 10.34483f, 4.067797f
         for(int i=1;i<SolarSystem.transform.childCount; i++){
             SolarSystem.gameObject.transform.GetChild(i).transform.Rotate(0 , speed*OrbitSpeeds[i]*Time.deltaTime , 0 , Space.Self);
         }
+
+        SolarSystem.gameObject.transform.GetChild(3).GetChild(0).GetChild(0).transform.Rotate(0 , speed*1604.396f*Time.deltaTime , 0 , Space.Self);
+
     }
 }
