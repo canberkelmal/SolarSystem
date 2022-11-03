@@ -372,8 +372,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SolarSystem: {fileID: 1356213135}
-  PlanetsX5: 1
-  speed: 1
+  PlanetsX5: 0
+  speed: 0.1
   OrbitSpeeds:
   - 0
   - 600
